@@ -1,0 +1,8 @@
+2022-10-27 14:31:54,101 - __main__ - INFO - Start print log
+2022-10-27 14:31:54,101 - __main__ - WARNING - Something maybe fail.
+2022-10-27 14:31:54,102 - __main__ - ERROR - Faild to open sklearn.txt from logger.error
+Traceback (most recent call last):
+  File "D:\Pycharm_projects\yolov5_detect\1.py", line 20, in <module>
+    open("sklearn.txt", "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'sklearn.txt'
+2022-10-27 14:31:54,102 - __main__ - INFO - Finish
